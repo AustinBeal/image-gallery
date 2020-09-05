@@ -1,0 +1,64 @@
+body{
+background-color: cadetblue;
+font-size: 1em;
+width: 100%;
+background-color: darkgrey;
+}
+.imgsection{
+  margin:  0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: coral;
+  padding: 5pt;
+  height: 80%;
+  line-height: 1.3;
+}
+.imgwrapper{
+  background-color: cornflowerblue;
+  padding: 5pt;
+  height: 100%;
+  margin: auto;
+}
+.imgcontainer{
+  background-color: crimson;
+  padding: 5pt;
+  height: 95%;
+}
+h3{
+  font-size: small;
+}
+
+.project{
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  margin: 1em o;
+  cursor: pointer;
+}
+figure{
+  margin: 0;
+  padding: 0;  
+}
+.project figure img {
+  width: 100%;
+  height:2000px;
+  display: block;
+  object-fit: cover;
+}
+img{
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.project figcaption{
+  padding: 1em;
+}
+
+.cta{
+font-size: 12px;
+}
+.cta:after {
+  
+}
